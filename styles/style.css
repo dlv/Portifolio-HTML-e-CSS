@@ -12,6 +12,29 @@ body{
     color: #F6F6F6;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 10%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #22D4FD;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    color: #007bff;
+}
+
 .titulo-destaque{
     color: #22D4FD;
 }
@@ -81,20 +104,3 @@ body{
     font-weight: 400;
 }
 
-.cabecalho__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cabecalho__menu__link {
-    font-size: 18px;
-    color: #333;
-    margin: 0 10px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-.cabecalho__menu__link:hover {
-    color: #007bff;
-}
